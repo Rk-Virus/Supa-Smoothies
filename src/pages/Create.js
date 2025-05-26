@@ -18,7 +18,7 @@ const Create = () => {
       return
     }
 
-    const { data, error } = await supabase
+    const { error } = await supabase
       .from('recipes')
       .insert([{ title, method, rating }])
 
