@@ -2,7 +2,7 @@
   "name": "supasmoothies",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rk-virus.github.io/supa-smoothies",
+  "homepage": "https://rk-virus.github.io/Supa-Smoothies/",
   "dependencies": {
     "@supabase/supabase-js": "^1.35.6",
     "@testing-library/jest-dom": "^5.16.5",
