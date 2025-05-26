@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom"
+import { HashRouter, Routes, Route, Link } from "react-router-dom"
 
 // pages
 import Home from "./pages/Home"
@@ -8,7 +8,7 @@ import Update from "./pages/Update"
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <nav>
         <h1>Supa Smoothies</h1>
         <Link to="/">Home</Link>
@@ -19,7 +19,7 @@ function App() {
         <Route path="/create" element={<Create />} />
         <Route path="/:id" element={<Update />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
