@@ -74,12 +74,6 @@ npm run preview
 
 ---
 
-## 🧾 License
-
-MIT — feel free to fork, modify, and contribute!
-
----
-
 ## 🙌 Credits
 
 Made with 💖 using [React](https://reactjs.org/) and [Supabase](https://supabase.io/)
